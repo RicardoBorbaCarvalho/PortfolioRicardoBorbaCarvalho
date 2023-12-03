@@ -79,6 +79,9 @@ h1 {
   margin: 20px 0px 20px;
   font-size: 75px;
 }
+h2 {
+  max-width: 100%;
+}
 
 h3 {
   color: white;
@@ -125,6 +128,7 @@ h4 {
   width: 100%;
   padding: 100px 0px;
   background-color: #191919;
+  max-width: 100%;
 }
 
 .sobre-mim img {
@@ -133,6 +137,7 @@ h4 {
 }
 .sobre-mim-texto {
   width: 550px;
+  max-width: 30%;
 }
 
 .main {
