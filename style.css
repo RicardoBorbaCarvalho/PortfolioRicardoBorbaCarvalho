@@ -4,12 +4,16 @@
   font-family: "Josefin Sans", sans-serif;
   box-sizing: border-box;
 }
+.todo {
+  padding: 0;
+  margin: 0;
+}
 
 .barra {
   height: 100vh;
   width: 100%;
   background-color: #101010;
-  background-image: url(/Vector-Azul.png);
+  background-image: url(/img/Vector-Azul.png);
   background-size: cover;
   background-position: center;
 }
@@ -24,7 +28,7 @@ nav {
 }
 
 .logo {
-  color: white;
+  color: #ffffff;
   font-size: 35px;
   letter-spacing: 1px;
   cursor: pointer;
@@ -41,7 +45,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
   text-transform: capitalize;
@@ -54,7 +58,7 @@ nav ul li a:hover {
 
 .btn {
   background-color: #0080fa;
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: bold;
@@ -79,6 +83,7 @@ h1 {
   margin: 20px 0px 20px;
   font-size: 75px;
 }
+
 h2 {
   max-width: 100%;
 }
@@ -97,7 +102,7 @@ h4 {
 
 .newslatter form {
   width: 380px;
-  max-width: 100%;
+  max-width: 90%;
   position: relative;
 }
 
@@ -208,6 +213,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   min-height: 400px;
+  max-width: 100%;
 }
 
 .card {
