@@ -139,6 +139,7 @@ h4 {
 .sobre-mim img {
   height: auto;
   width: 550px;
+  max-width: 60%;
 }
 .sobre-mim-texto {
   width: 550px;
